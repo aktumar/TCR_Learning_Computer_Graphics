@@ -1,5 +1,2 @@
-﻿  Lesson1.cpp
-d:\работа\2020 - cs-cg\cs-cg\cs-cg\lesson1.cpp(6): warning C4305: аргумент: усечение из "double" в "GLfloat"
-d:\работа\2020 - cs-cg\cs-cg\cs-cg\lesson1.cpp(8): warning C4305: аргумент: усечение из "double" в "GLfloat"
-d:\работа\2020 - cs-cg\cs-cg\cs-cg\lesson1.cpp(10): warning C4305: аргумент: усечение из "double" в "GLfloat"
-  CS-CG.vcxproj -> D:\Работа\2020 - CS-CG\CS-CG\Debug\CS-CG.exe
+﻿  цууаптаптпьcpp.cpp
+d:\работа\2020 - cs-cg\cs-cg\cs-cg\цууаптаптпьcpp.cpp(2): fatal error C1004: непредвиденное обнаружение конца файла
