@@ -1,6 +1,10 @@
 #include <GL/glew.h>
 #include <GL/freeglut.h>
 
+#include <glm/glm/glm.hpp>
+#include <glm/glm/gtc/matrix_transform.hpp>
+#include <glm/glm/gtc/type_ptr.hpp>
+
 GLuint vbo;
 GLuint cbo;
 GLuint posLoc;
@@ -52,14 +56,24 @@ void myInit()
 
 
 
-	float vertices[] = { -1, -1, 0, 1, -1, 0, 0, 0.5, 0 };
+	float vertices[] =
+	{
+		-1, -1, 0,
+		0, 1, 0,
+		1, -1, 0
+
+	};
 	glGenBuffers(1, &vbo);
 	glBindBuffer(GL_ARRAY_BUFFER, vbo);
 	glBufferData(GL_ARRAY_BUFFER, 9 * sizeof(float), vertices, GL_STATIC_DRAW);
 	glBindBuffer(GL_ARRAY_BUFFER, 0);
 
 
-	float color[] = { 1, 1, 1, 1, 0, 1, 1, 1, 0 };
+	float color[] =
+	{
+		1, 0, 1, 1, 1, 0, 0, 0, 1
+	};
+
 	glGenBuffers(1, &cbo);
 	glBindBuffer(GL_ARRAY_BUFFER, cbo);
 	glBufferData(GL_ARRAY_BUFFER, 9 * sizeof(float), color, GL_STATIC_DRAW);

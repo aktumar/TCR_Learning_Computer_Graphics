@@ -21,7 +21,7 @@
     <ClCompile Include="week4_triangle_shader.cpp">
       <Filter>Файлы ресурсов</Filter>
     </ClCompile>
-    <ClCompile Include="цууаптаптпьcpp.cpp">
+    <ClCompile Include="week8_cube.cpp">
       <Filter>Файлы ресурсов</Filter>
     </ClCompile>
   </ItemGroup>
