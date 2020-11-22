@@ -1,11 +1,33 @@
-﻿week3_triangle.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_glutInitWindowPosition в функции main
-week3_triangle.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_glutInitWindowSize в функции main
-week3_triangle.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_glutInitDisplayMode в функции main
-week3_triangle.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_glutMainLoop в функции main
-week3_triangle.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_glutSwapBuffers в функции "void __cdecl function(void)" (?function@@YAXXZ)
-week3_triangle.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_glutDisplayFunc в функции main
-week3_triangle.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp___glutInitWithExit в функции glutInit_ATEXIT_HACK
-week3_triangle.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp___glutCreateWindowWithExit в функции glutCreateWindow_ATEXIT_HACK
+﻿  Source.cpp
+d:\работа\2020 - cs-cg\cs-cg\cs-cg\source.cpp(43): warning C4267: инициализация: преобразование из "size_t" в "GLint"; возможна потеря данных
+d:\работа\2020 - cs-cg\cs-cg\cs-cg\source.cpp(57): warning C4267: =: преобразование из "size_t" в "GLint"; возможна потеря данных
+Source.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_glewInit в функции main
+Source.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_glutInitWindowSize в функции main
+Source.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_glutInitDisplayMode в функции main
+Source.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_glutMainLoop в функции main
+Source.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_glutPostRedisplay в функции "void __cdecl myIdle(void)" (?myIdle@@YAXXZ)
+Source.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_glutSwapBuffers в функции "void __cdecl myDisplay(void)" (?myDisplay@@YAXXZ)
+Source.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_glutIdleFunc в функции main
+Source.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_glutDisplayFunc в функции main
+Source.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp___glutInitWithExit в функции glutInit_ATEXIT_HACK
+Source.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp___glutCreateWindowWithExit в функции glutCreateWindow_ATEXIT_HACK
+Source.obj : error LNK2001: неразрешенный внешний символ "__imp___glewBindBuffer"
+Source.obj : error LNK2001: неразрешенный внешний символ "__imp___glewBufferData"
+Source.obj : error LNK2001: неразрешенный внешний символ "__imp___glewGenBuffers"
+Source.obj : error LNK2001: неразрешенный внешний символ "__imp___glewAttachShader"
+Source.obj : error LNK2001: неразрешенный внешний символ "__imp___glewCompileShader"
+Source.obj : error LNK2001: неразрешенный внешний символ "__imp___glewCreateProgram"
+Source.obj : error LNK2001: неразрешенный внешний символ "__imp___glewCreateShader"
+Source.obj : error LNK2001: неразрешенный внешний символ "__imp___glewDisableVertexAttribArray"
+Source.obj : error LNK2001: неразрешенный внешний символ "__imp___glewEnableVertexAttribArray"
+Source.obj : error LNK2001: неразрешенный внешний символ "__imp___glewGetAttribLocation"
+Source.obj : error LNK2001: неразрешенный внешний символ "__imp___glewGetUniformLocation"
+Source.obj : error LNK2001: неразрешенный внешний символ "__imp___glewLinkProgram"
+Source.obj : error LNK2001: неразрешенный внешний символ "__imp___glewShaderSource"
+Source.obj : error LNK2001: неразрешенный внешний символ "__imp___glewUniformMatrix4fv"
+Source.obj : error LNK2001: неразрешенный внешний символ "__imp___glewUseProgram"
+Source.obj : error LNK2001: неразрешенный внешний символ "__imp___glewValidateProgram"
+Source.obj : error LNK2001: неразрешенный внешний символ "__imp___glewVertexAttribPointer"
 .\..\lib\freeglut.lib : warning LNK4272: тип компьютера библиотеки "x86" конфликтует с типом целевого компьютера "x64"
 .\..\lib\glew32.lib : warning LNK4272: тип компьютера библиотеки "x86" конфликтует с типом целевого компьютера "x64"
-D:\Работа\2020 - CS-CG\CS-CG\x64\Debug\CS-CG.exe : fatal error LNK1120: неразрешенных внешних элементов: 8
+D:\Работа\2020 - CS-CG\CS-CG\x64\Debug\CS-CG.exe : fatal error LNK1120: неразрешенных внешних элементов: 27

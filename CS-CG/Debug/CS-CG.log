@@ -1,2 +1,3 @@
-﻿  week9.cpp
-  CS-CG.vcxproj -> D:\Работа\2020 - CS-CG\CS-CG\Debug\CS-CG.exe
+﻿  Source.cpp
+  week4_triangle_shader.cpp
+LINK : fatal error LNK1168: не удается открыть D:\Работа\2020 - CS-CG\CS-CG\Debug\CS-CG.exe для записи
