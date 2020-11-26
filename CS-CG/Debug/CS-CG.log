@@ -1,3 +1,4 @@
 ﻿  Source.cpp
   week4_triangle_shader.cpp
-LINK : fatal error LNK1168: не удается открыть D:\Работа\2020 - CS-CG\CS-CG\Debug\CS-CG.exe для записи
+  LINK : не найден или не выполнена сборка D:\Работа\2020 - CS-CG\Для обновления репозитория\Learning_Computer_Graphics\Debug\CS-CG.exe при последней инкрементной компоновке; выполняется полная компоновка
+  CS-CG.vcxproj -> D:\Работа\2020 - CS-CG\Для обновления репозитория\Learning_Computer_Graphics\Debug\CS-CG.exe
