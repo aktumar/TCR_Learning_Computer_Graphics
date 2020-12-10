@@ -1,0 +1,24 @@
+int prevx, prevy;
+void myMouse(int button, int state, int x, int y)
+{
+	prevx = x;
+	prevy = y;
+
+	if (button == GLUT_LEFT_BUTTON and state == GLUT_DOWN) 
+	{do something}
+
+}
+void myMotion(int x, int y)
+{
+	view = glm::rotate;
+	glUniformMatrix4fv();
+	glutPostRedisplay();
+
+	prevx = x;
+	prevy = y;
+}
+
+	glutMouseFunc(myMouse);
+	glutMotionFunc(myMotion);
+
+
