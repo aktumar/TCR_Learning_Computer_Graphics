@@ -82,7 +82,7 @@ int main(int argc, char **argv){
 
 Как можно увидеть, для прорисовки одной фигуры необходимо указать начало и конец обрабатываемых точек. И даже можно задать определенный цвет каждой точке. При запуске этого кода, у вас должен получится такой треугольник:
 
-![Image alt](https://github.com/aktumar/Learning_Computer_Graphics/blob/master/lessons/images/Lesson1_OpenGL_2.0.png)
+![Image alt](https://github.com/aktumar/Learning_Computer_Graphics/blob/master/lessons/images/week3_triangle.png)
 
 
 > Задание №1. Найти определение каждой команде (для себя)
