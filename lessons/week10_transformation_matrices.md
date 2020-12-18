@@ -1,3 +1,14 @@
+# (13 неделя) - OpenGL 3.0: Управление мышкой
+
+
+
+## План работы: 
+
+## 1. Теория
+
+## 2. Практика
+
+```
 GLuint viewLoc;
 glm::mat4 view(1);
 
@@ -19,4 +30,7 @@ void myIdle()
 	glUniformMatrix4fv(viewLoc, 1, GL_FALSE, glm::value_ptr(view));
 	glutPostRedisplay();
 }
+
+
+```
 
