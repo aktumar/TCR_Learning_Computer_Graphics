@@ -20,11 +20,11 @@ void main()\
 
 Константный коэффициент фонового освещения (amb) можно регулировать, например на следующих рисунках коэффициенты равны (0.1f, 0.5f, 1/0f) соответственно.
 
-![img](https://github.com/aktumar/Learning_Computer_Graphics/blob/master/lessons/images/lighting_ambient=0.1.png) <img src="/lighting_ambient=0.1.png" width="200" height="200"/>
+<img src="https://github.com/aktumar/Learning_Computer_Graphics/blob/master/lessons/images/lighting_ambient=0.1.png" width="200" height="200"/>
 
-![img](https://github.com/aktumar/Learning_Computer_Graphics/blob/master/lessons/images/lighting_ambient=0.5.png)<img src="/lighting_ambient=0.5.png" width="200" height="200"/>
+<img src="https://github.com/aktumar/Learning_Computer_Graphics/blob/master/lessons/images/lighting_ambient=0.5.png" width="200" height="200"/>
 
-![img](https://github.com/aktumar/Learning_Computer_Graphics/blob/master/lessons/images/lighting_ambient=1.0.png)<img src="/lighting_ambient=1.0.png" width="200" height="200"/>
+<img src="https://github.com/aktumar/Learning_Computer_Graphics/blob/master/lessons/images/lighting_ambient=1.0.png" width="200" height="200"/>
 
 #### Диффузное освещение
 
@@ -177,11 +177,11 @@ uniform vec3 lightPosition;\
 
 В качестве результата у вас должно получиться следующее:
 
-![img](https://github.com/aktumar/Learning_Computer_Graphics/blob/master/lessons/images/lighting_diffusion=0.3.png)<img src="/lighting_diffusion=0.3.png" width="200" height="200"/>
+<img src="https://github.com/aktumar/Learning_Computer_Graphics/blob/master/lessons/images/lighting_diffusion=0.3.png" width="200" height="200"/>
 
-![img](https://github.com/aktumar/Learning_Computer_Graphics/blob/master/lessons/images/lighting_diffusion=0.6.png)<img src="/lighting_diffusion=0.6.png" width="200" height="200"/>
+<img src="https://github.com/aktumar/Learning_Computer_Graphics/blob/master/lessons/images/lighting_diffusion=0.6.png" width="200" height="200"/>
 
-![img](https://github.com/aktumar/Learning_Computer_Graphics/blob/master/lessons/images/lighting_diffusion=0.9.png)<img src="/lighting_diffusion=0.9.png" width="200" height="200"/>
+<img src="https://github.com/aktumar/Learning_Computer_Graphics/blob/master/lessons/images/lighting_diffusion=0.9.png" width="200" height="200"/>
 
 #### Освещение зеркальных бликов
 
